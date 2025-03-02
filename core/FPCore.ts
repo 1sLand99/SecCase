@@ -1,9 +1,8 @@
-import { Log } from "../modules/Log";
+import { Jni } from "../modules/jnitrace/Jni";
 class FPCore {
-  private _logModule = new Log();
-
-  public get log() {
-    return this._logModule;
+  private _jniModule = new Jni();
+  public get jni() {
+    return this._jniModule;
   }
 }
 

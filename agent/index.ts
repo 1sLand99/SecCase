@@ -1,12 +1,13 @@
 import { fpcore } from "../core/FPCore";
+import { log } from "../utils/logger";
 
-function main() {
-  Interceptor.attach(Module.getExportByName(null, "open"), {
-    onEnter(args) {
-      const path = args[0].readUtf8String();
-      fpcore.log.logToConsole(`open() path6="${path}"`);
+function trace_jni_for_wework() {
+  var target_so = Module.getBaseAddress("libwechatnormsg_stl.so");
+  Interceptor.attach(target_so.add(0x8c1b4), {
+    onEnter: function (args) {
+      log(" ================ attach func aa");
+      fpcore.jni.trace();
     },
   });
 }
-
-setImmediate(main);
+setImmediate(trace_jni_for_wework);

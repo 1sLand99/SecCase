@@ -1,0 +1,563 @@
+ ================ attach func aa
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getContentResolver()Landroid/content/ContentResolver; 0x12d
+/* TID 25815 */ JNIENv->FindClass android/provider/Settings$Secure
+----------------GetStaticObjectField----------------
+case "android/provider/Settings$Secure->ALLOW_MOCK_LOCATION:Ljava/lang/String;":    
+    return new StringObject(vm, "mock_location");
+/* TID 25815 */ JNIENv->FindClass android/provider/Settings$Secure
+/* TID 25815 */ JNIENv->CallStaticIntMethodV android/provider/Settings$Secure->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+/* TID 25815 */ JNIENv->GetLongField android/os/Binder->0x7099d1d4 2347358560L
+/* TID 25815 */ JNIENv->FindClass android/os/Debug
+/* TID 25815 */ JNIENv->CallStaticBooleanMethodV android/os/Debug->isDebuggerConnected()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getPackageManager()Landroid/content/pm/PackageManager; 0x129
+/* TID 25815 */ JNIENv->FindClass android/content/pm/PackageManager
+----------------GetStaticIntField----------------
+case "android/content/pm/PackageManager->GET_SIGNATURES:I":    
+    return 64;
+/* TID 25815 */ JNIENv->NewStringUTF com.tencent.wework
+/* TID 25815 */ JNIENv->NewStringUTF com.tencent.wework
+/* TID 25815 */ JNIENv->NewStringUTF 4.1.26
+/* TID 25815 */ JNIENv->NewStringUTF com.tencent.wework.launch.WwApplication
+/* TID 25815 */ JNIENv->NewStringUTF com.tencent.wework
+/* TID 25815 */ JNIENv->NewStringUTF com.tencent.wework
+/* TID 25815 */ JNIENv->NewStringUTF com.tencent.wework
+/* TID 25815 */ JNIENv->NewStringUTF com.tencent.wework.launch.WwApplication
+/* TID 25815 */ JNIENv->NewStringUTF /data/app/~~Jm3bRSOuJlKJIHKi52pG1w==/com.tencent.wework-jvRJf3U2Tv6ZOdhzJZjTVA==
+/* TID 25815 */ JNIENv->NewStringUTF /data/app/~~Jm3bRSOuJlKJIHKi52pG1w==/com.tencent.wework-jvRJf3U2Tv6ZOdhzJZjTVA==
+/* TID 25815 */ JNIENv->NewStringUTF /data/app/~~Jm3bRSOuJlKJIHKi52pG1w==/com.tencent.wework-jvRJf3U2Tv6ZOdhzJZjTVA==/base.apk
+/* TID 25815 */ JNIENv->NewStringUTF /data/app/~~Jm3bRSOuJlKJIHKi52pG1w==/com.tencent.wework-jvRJf3U2Tv6ZOdhzJZjTVA==/base.apk
+/* TID 25815 */ JNIENv->NewStringUTF /data/app/~~Jm3bRSOuJlKJIHKi52pG1w==/com.tencent.wework-jvRJf3U2Tv6ZOdhzJZjTVA==/lib/arm64
+/* TID 25815 */ JNIENv->NewStringUTF /data/app/~~Jm3bRSOuJlKJIHKi52pG1w==/com.tencent.wework-jvRJf3U2Tv6ZOdhzJZjTVA==/lib
+/* TID 25815 */ JNIENv->NewStringUTF arm64-v8a
+/* TID 25815 */ JNIENv->NewStringUTF /product/overlay/GestureLineOverlay.apk
+/* TID 25815 */ JNIENv->NewStringUTF /product/overlay/GestureLineOverlay.apk
+/* TID 25815 */ JNIENv->NewStringUTF /data/resource-cache/com.android.systemui-neutral-Sp0G.frro
+/* TID 25815 */ JNIENv->NewStringUTF /data/resource-cache/com.android.systemui-accent-Hy0F.frro
+/* TID 25815 */ JNIENv->NewStringUTF default:targetSdkVersion=31
+/* TID 25815 */ JNIENv->NewStringUTF :complete
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/android.test.mock.jar
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/org.apache.http.legacy.jar
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/android.test.base.jar
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/android.test.runner.jar
+/* TID 25815 */ JNIENv->NewStringUTF libOpenCL.so
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/android.test.mock.jar
+/* TID 25815 */ JNIENv->NewStringUTF android.test.mock
+/* TID 25815 */ JNIENv->NewStringUTF android
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/org.apache.http.legacy.jar
+/* TID 25815 */ JNIENv->NewStringUTF org.apache.http.legacy
+/* TID 25815 */ JNIENv->NewStringUTF android
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/android.test.base.jar
+/* TID 25815 */ JNIENv->NewStringUTF android.test.base
+/* TID 25815 */ JNIENv->NewStringUTF android
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/android.test.runner.jar
+/* TID 25815 */ JNIENv->NewStringUTF android.test.runner
+/* TID 25815 */ JNIENv->NewStringUTF android
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/android.test.base.jar
+/* TID 25815 */ JNIENv->NewStringUTF android.test.base
+/* TID 25815 */ JNIENv->NewStringUTF android
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/android.test.mock.jar
+/* TID 25815 */ JNIENv->NewStringUTF android.test.mock
+/* TID 25815 */ JNIENv->NewStringUTF android
+/* TID 25815 */ JNIENv->NewStringUTF libOpenCL.so
+/* TID 25815 */ JNIENv->NewStringUTF libOpenCL.so
+/* TID 25815 */ JNIENv->NewStringUTF android
+/* TID 25815 */ JNIENv->NewStringUTF /data/user/0/com.tencent.wework
+/* TID 25815 */ JNIENv->NewStringUTF /data/user_de/0/com.tencent.wework
+/* TID 25815 */ JNIENv->NewStringUTF /data/user/0/com.tencent.wework
+/* TID 25815 */ JNIENv->NewStringUTF 13
+/* TID 25815 */ JNIENv->NewStringUTF androidx.core.app.CoreComponentFactory
+/* TID 25815 */ JNIENv->NewStringUTF 13
+/* TID 25815 */ JNIENv->CallObjectMethodV android/app/ApplicationPackageManager->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo; 0x179
+----------------getObjectField----------------
+case "android/content/pm/PackageInfo->signatures:[Landroid/content/pm/Signature;":    
+    CertificateMeta meta = new CertificateMeta(    
+        "SHA1WITHRSA",    
+        "1.2.840.113549.1.1.5",    
+        new Date(1284642258000L),    
+        new Date(2148642258000L),    
+        hexStringToBytes("3082024d308201b6a00302010202044c9215d2300d06092a864886f70d0101050500306b310b300906035504061302434e310b300906035504081302474431123010060355040713094775616e677a686f753110300e060355040a130754656e63656e7431163014060355040b130d3347204465706172746d656e743111300f0603550403130857696c736f6e5775301e170d3130303931363133303431385a170d3338303230313133303431385a306b310b300906035504061302434e310b300906035504081302474431123010060355040713094775616e677a686f753110300e060355040a130754656e63656e7431163014060355040b130d3347204465706172746d656e743111300f0603550403130857696c736f6e577530819f300d06092a864886f70d010101050003818d0030818902818100c296107f5bcb27fca34073e42cd6e8bb6973120b9f891b0bbc913aa58d87719cd9ab5d824b80c50807cf12223c3331f8f5a2208e8fb75e88634ca6e09d81b994b94e483f79a63e1daf6841ab4c69113ef0b5d01cf2b24824c7e5b2757eea844918a41a5aa951b4577230c1404962fc8d33cbc716d3663348943f3a44733c8e450203010001300d06092a864886f70d010105050003818100b35bdf19397d9b40cf6533a9673c0e911062a7b3f4d5165e1d9e3e21a387a8e7d5f9b248b11182da97c0dcd69d3b935ed76c4f64a0708793f3318389a420fb4e0f1f4cea296d8de1c26cf4024e22ff3bfbc59cc32c16a8110dad909eac907d81b7ac884c066f38c6566292d5d5accea35318d1b86d144f5b7fe213bab574d4c6"),    
+        "011a40266c8c75d181ddd8e4ddc50075",    
+        "213c91b8cff75a3bb174a471ea44415f"    
+);    
+return new ArrayObject(new Signature[]{new Signature(vm, meta)});
+/* TID 25815 */ JNIENv->CallObjectMethodV android/content/pm/Signature->toByteArray()[B 0x1d1
+/* TID 25815 */ JNIENv->FindClass android/os/Build
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV android/os/Build->getRadioVersion()Ljava/lang/String;
+/* TID 25815 */ JNIENv->GetStringUTFChars gsm.version.baseband
+/* TID 25815 */ JNIENv->NewStringUTF MOLY.NR16.R1.MP3.TC8.PR1.SP.V1.P42,MOLY.NR16.R1.MP3.TC8.PR1.SP.V1.P42
+/* TID 25815 */ JNIENv->NewStringUTF UTF-8
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/nio/charset/Charset->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/String->getBytes(Ljava/nio/charset/Charset;)[B 0x1b9
+/* TID 25815 */ JNIENv->FindClass android/content/Context
+----------------GetStaticObjectField----------------
+case "android/content/Context->TELEPHONY_SERVICE:Ljava/lang/String;":    
+    return new StringObject(vm, "phone");
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getSystemService(Ljava/lang/String;)Ljava/lang/Object; 0x125
+/* TID 25815 */ JNIENv->GetStringUTFChars gsm.sim.operator.alpha
+/* TID 25815 */ JNIENv->CallObjectMethodV android/telephony/TelephonyManager->getSimOperatorName()Ljava/lang/String; 
+/* TID 25815 */ JNIENv->NewStringUTF UTF-8
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/nio/charset/Charset->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/String->getBytes(Ljava/nio/charset/Charset;)[B 0x1c9
+/* TID 25815 */ JNIENv->FindClass android/content/Context
+----------------GetStaticObjectField----------------
+case "android/content/Context->CONNECTIVITY_SERVICE:Ljava/lang/String;":    
+    return new StringObject(vm, "connectivity");
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getSystemService(Ljava/lang/String;)Ljava/lang/Object; 0x131
+/* TID 25815 */ JNIENv->CallObjectMethodV android/net/ConnectivityManager->getActiveNetworkInfo()Landroid/net/NetworkInfo; 0x141
+/* TID 25815 */ JNIENv->CallObjectMethodV android/net/NetworkInfo->getExtraInfo()Ljava/lang/String; 
+/* TID 25815 */ JNIENv->NewStringUTF UTF-8
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/nio/charset/Charset->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/String->getBytes(Ljava/nio/charset/Charset;)[B 0x1f5
+/* TID 25815 */ JNIENv->FindClass android/content/Context
+----------------GetStaticObjectField----------------
+case "android/content/Context->CONNECTIVITY_SERVICE:Ljava/lang/String;":    
+    return new StringObject(vm, "connectivity");
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getSystemService(Ljava/lang/String;)Ljava/lang/Object; 0x121
+/* TID 25815 */ JNIENv->CallObjectMethodV android/net/ConnectivityManager->getActiveNetworkInfo()Landroid/net/NetworkInfo; 0x159
+/* TID 25815 */ JNIENv->CallIntMethodV android/net/NetworkInfo->getType()I
+/* TID 25815 */ JNIENv->FindClass android/net/ConnectivityManager
+----------------GetStaticIntField----------------
+case "android/net/ConnectivityManager->TYPE_WIFI:I":    
+    return 1;
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getClassLoader()Ljava/lang/ClassLoader; 0x149
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/Class->getName()Ljava/lang/String; dalvik.system.DelegateLastClassLoader
+/* TID 25815 */ JNIENv->GetStringUTFChars dalvik.system.DelegateLastClassLoader
+/* TID 25815 */ JNIENv->FindClass java/net/NetworkInterface
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/NetworkInterface->getNetworkInterfaces()Ljava/util/Enumeration;
+/* TID 25815 */ JNIENv->NewStringUTF wlan0
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7639984c48  fe 80 00 00 00 00 00 00 8c d2 0e ff fe ef af e2  ................
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7639984cc8  ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->NewStringUTF dummy0
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7639984a48  fe 80 00 00 00 00 00 00 98 a9 13 ff fe 53 2e 60  .............S.`
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7639984ac8  ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->NewStringUTF lo
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7639984848  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01  ................
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+76399848c8  ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->NewStringUTF wlan0
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+75732c3a44  c0 a8 00 64                                      ...d
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+75732c3ac4  ff ff ff 00                                      ....
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+75732c3b44  c0 a8 00 ff                                      ....
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->NewStringUTF lo
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+74fa242444  7f 00 00 01                                      ....
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+74fa2424c4  ff 00 00 00                                      ....
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->GetStringUTFChars dummy0
+/* TID 25815 */ JNIENv->GetStringUTFChars wlan0
+/* TID 25815 */ JNIENv->GetStringUTFChars lo
+/* TID 25815 */ JNIENv->FindClass java/net/Inet4Address
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/util/Collections$3->hasMoreElements()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV java/util/Collections$3->nextElement()Ljava/lang/Object; 0x109
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/net/NetworkInterface->isLoopback()Z
+/* TID 25815 */ JNIENv->GetStringUTFChars dummy0
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->CallObjectMethodV java/net/NetworkInterface->getInetAddresses()Ljava/util/Enumeration; 0x1b5
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/net/NetworkInterface$1checkedAddresses->hasMoreElements()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV java/net/NetworkInterface$1checkedAddresses->nextElement()Ljava/lang/Object; 0x1d9
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/net/NetworkInterface$1checkedAddresses->hasMoreElements()Z
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/util/Collections$3->hasMoreElements()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV java/util/Collections$3->nextElement()Ljava/lang/Object; 0x101
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/net/NetworkInterface->isLoopback()Z
+/* TID 25815 */ JNIENv->GetStringUTFChars wlan0
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->CallObjectMethodV java/net/NetworkInterface->getInetAddresses()Ljava/util/Enumeration; 0x1b9
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/net/NetworkInterface$1checkedAddresses->hasMoreElements()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV java/net/NetworkInterface$1checkedAddresses->nextElement()Ljava/lang/Object; 0x1cd
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/net/NetworkInterface$1checkedAddresses->hasMoreElements()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV java/net/NetworkInterface$1checkedAddresses->nextElement()Ljava/lang/Object; 0x1c5
+/* TID 25815 */ JNIENv->CallObjectMethodV java/net/Inet4Address->getHostAddress()Ljava/lang/String; 192.168.0.100
+/* TID 25815 */ JNIENv->NewStringUTF UTF-8
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/nio/charset/Charset->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/String->getBytes(Ljava/nio/charset/Charset;)[B 0x251
+/* TID 25815 */ JNIENv->FindClass android/os/LocaleList
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV android/os/LocaleList->getDefault()Landroid/os/LocaleList;
+/* TID 25815 */ JNIENv->CallObjectMethodV android/os/LocaleList->get(I)Ljava/util/Locale; 0x125
+/* TID 25815 */ JNIENv->CallObjectMethodV java/util/Locale->getLanguage()Ljava/lang/String; zh
+/* TID 25815 */ JNIENv->CallObjectMethodV java/util/Locale->getCountry()Ljava/lang/String; CN
+/* TID 25815 */ JNIENv->NewStringUTF UTF-8
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/nio/charset/Charset->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/String->getBytes(Ljava/nio/charset/Charset;)[B 0x1ed
+/* TID 25815 */ JNIENv->NewStringUTF UTF-8
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/nio/charset/Charset->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/String->getBytes(Ljava/nio/charset/Charset;)[B 0x1e1
+/* TID 25815 */ JNIENv->FindClass android/content/Context
+----------------GetStaticObjectField----------------
+case "android/content/Context->TELEPHONY_SERVICE:Ljava/lang/String;":    
+    return new StringObject(vm, "phone");
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getSystemService(Ljava/lang/String;)Ljava/lang/Object; 0x131
+/* TID 25815 */ JNIENv->CallIntMethodV android/telephony/TelephonyManager->getCallState()I
+/* TID 25815 */ JNIENv->FindClass android/content/Context
+----------------GetStaticObjectField----------------
+case "android/content/Context->KEYGUARD_SERVICE:Ljava/lang/String;":    
+    return new StringObject(vm, "keyguard");
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getSystemService(Ljava/lang/String;)Ljava/lang/Object; 0x121
+/* TID 25815 */ JNIENv->CallBooleanMethodV android/app/KeyguardManager->isKeyguardSecure()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getContentResolver()Landroid/content/ContentResolver; 0x151
+/* TID 25815 */ JNIENv->FindClass android/provider/Settings$Global
+----------------GetStaticObjectField----------------
+case "android/provider/Settings$Global->WIFI_ON:Ljava/lang/String;":    
+    return new StringObject(vm, "wifi_on");
+/* TID 25815 */ JNIENv->FindClass android/provider/Settings$Global
+/* TID 25815 */ JNIENv->CallStaticIntMethodV android/provider/Settings$Global->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+/* TID 25815 */ JNIENv->GetLongField android/os/Binder->0x7099d1d4 2347358560L
+/* TID 25815 */ JNIENv->FindClass android/os/Looper
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV android/os/Looper->getMainLooper()Landroid/os/Looper;
+/* TID 25815 */ JNIENv->CallObjectMethodV android/os/Looper->getThread()Ljava/lang/Thread; 0x121
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/Thread->getStackTrace()[Ljava/lang/StackTraceElement; 0x105
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; dalvik.system.VMStack
+/* TID 25815 */ JNIENv->GetStringUTFChars dalvik.system.VMStack
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; java.lang.Thread
+/* TID 25815 */ JNIENv->GetStringUTFChars java.lang.Thread
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; com.tencent.mm.normsg.c$p
+/* TID 25815 */ JNIENv->GetStringUTFChars com.tencent.mm.normsg.c$p
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; com.tencent.mm.normsg.WCProbe$Info
+/* TID 25815 */ JNIENv->GetStringUTFChars com.tencent.mm.normsg.WCProbe$Info
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; a0b
+/* TID 25815 */ JNIENv->GetStringUTFChars a0b
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; a0b
+/* TID 25815 */ JNIENv->GetStringUTFChars a0b
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; com.tencent.mm.IWxAppApiImpl
+/* TID 25815 */ JNIENv->GetStringUTFChars com.tencent.mm.IWxAppApiImpl
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; com.tencent.wework.enterprisemgr.controller.EnterpriseListNotifyFragment
+/* TID 25815 */ JNIENv->GetStringUTFChars com.tencent.wework.enterprisemgr.controller.EnterpriseListNotifyFragment
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; com.tencent.wework.enterprisemgr.controller.EnterpriseListNotifyFragment
+/* TID 25815 */ JNIENv->GetStringUTFChars com.tencent.wework.enterprisemgr.controller.EnterpriseListNotifyFragment
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; com.tencent.wework.enterprisemgr.controller.EnterpriseListNotifyFragment$LoginEnterpriseItemCell
+/* TID 25815 */ JNIENv->GetStringUTFChars com.tencent.wework.enterprisemgr.controller.EnterpriseListNotifyFragment$LoginEnterpriseItemCell
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; com.tencent.wework.enterprisemgr.controller.EnterpriseListNotifyFragment$LoginEnterpriseItemCell
+/* TID 25815 */ JNIENv->GetStringUTFChars com.tencent.wework.enterprisemgr.controller.EnterpriseListNotifyFragment$LoginEnterpriseItemCell
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; com.tencent.wework.enterprisemgr.controller.EnterpriseListNotifyFragment$LoginEnterpriseItemCell
+/* TID 25815 */ JNIENv->GetStringUTFChars com.tencent.wework.enterprisemgr.controller.EnterpriseListNotifyFragment$LoginEnterpriseItemCell
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; aub
+/* TID 25815 */ JNIENv->GetStringUTFChars aub
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; lv00
+/* TID 25815 */ JNIENv->GetStringUTFChars lv00
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; lv00$d
+/* TID 25815 */ JNIENv->GetStringUTFChars lv00$d
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; android.view.View
+/* TID 25815 */ JNIENv->GetStringUTFChars android.view.View
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; android.view.View
+/* TID 25815 */ JNIENv->GetStringUTFChars android.view.View
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; android.view.View
+/* TID 25815 */ JNIENv->GetStringUTFChars android.view.View
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; android.view.View$PerformClick
+/* TID 25815 */ JNIENv->GetStringUTFChars android.view.View$PerformClick
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; android.os.Handler
+/* TID 25815 */ JNIENv->GetStringUTFChars android.os.Handler
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; android.os.Handler
+/* TID 25815 */ JNIENv->GetStringUTFChars android.os.Handler
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; android.os.Looper
+/* TID 25815 */ JNIENv->GetStringUTFChars android.os.Looper
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; android.os.Looper
+/* TID 25815 */ JNIENv->GetStringUTFChars android.os.Looper
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; android.app.ActivityThread
+/* TID 25815 */ JNIENv->GetStringUTFChars android.app.ActivityThread
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; java.lang.reflect.Method
+/* TID 25815 */ JNIENv->GetStringUTFChars java.lang.reflect.Method
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; com.android.internal.os.RuntimeInit$MethodAndArgsCaller
+/* TID 25815 */ JNIENv->GetStringUTFChars com.android.internal.os.RuntimeInit$MethodAndArgsCaller
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getClassName()Ljava/lang/String; com.android.internal.os.ZygoteInit
+/* TID 25815 */ JNIENv->GetStringUTFChars com.android.internal.os.ZygoteInit
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/StackTraceElement->getMethodName()Ljava/lang/String; main
+/* TID 25815 */ JNIENv->GetStringUTFChars main
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getContentResolver()Landroid/content/ContentResolver; 0x14d
+/* TID 25815 */ JNIENv->FindClass android/provider/Settings$Global
+----------------GetStaticObjectField----------------
+case "android/provider/Settings$Global->ADB_ENABLED:Ljava/lang/String;":    
+    return new StringObject(vm, "adb_enabled");
+/* TID 25815 */ JNIENv->FindClass android/provider/Settings$Global
+/* TID 25815 */ JNIENv->CallStaticIntMethodV android/provider/Settings$Global->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+/* TID 25815 */ JNIENv->GetLongField android/os/Binder->0x7099d1d4 2347358560L
+/* TID 25815 */ JNIENv->FindClass android/content/Context
+----------------GetStaticObjectField----------------
+case "android/content/Context->ACTIVITY_SERVICE:Ljava/lang/String;":    
+    return new StringObject(vm, "activity");
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getSystemService(Ljava/lang/String;)Ljava/lang/Object; 0x121
+/* TID 25815 */ JNIENv->CallObjectMethodV android/app/ActivityThread->getInstrumentation()Landroid/app/Instrumentation; 0x155
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/Class->getName()Ljava/lang/String; com.tencent.wework.launch.ActivityInterceptor
+/* TID 25815 */ JNIENv->GetStringUTFChars com.tencent.wework.launch.ActivityInterceptor
+/* TID 25815 */ JNIENv->FindClass android/content/Context
+----------------GetStaticObjectField----------------
+case "android/content/Context->ACTIVITY_SERVICE:Ljava/lang/String;":    
+    return new StringObject(vm, "activity");
+/* TID 25815 */ JNIENv->FindClass com/android/internal/os/BinderInternal
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV com/android/internal/os/BinderInternal->getContextObject()Landroid/os/IBinder;
+/* TID 25815 */ JNIENv->FindClass android/os/ServiceManagerNative
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV android/os/ServiceManagerNative->asInterface(Landroid/os/IBinder;)Landroid/os/IServiceManager;
+/* TID 25815 */ JNIENv->CallObjectMethodV android/os/ServiceManagerProxy->getService(Ljava/lang/String;)Landroid/os/IBinder; 0x125
+/* TID 25815 */ JNIENv->FindClass java/lang/reflect/Proxy
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/lang/reflect/Proxy->getInvocationHandler(Ljava/lang/Object;)Ljava/lang/reflect/InvocationHandler;
+/* TID 25815 */ JNIENv->CallObjectMethodV android/os/BinderProxy->getClass()Ljava/lang/Class; android.os.BinderProxy
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/Class->getName()Ljava/lang/String; android.os.BinderProxy
+/* TID 25815 */ JNIENv->GetStringUTFChars android.os.BinderProxy
+/* TID 25815 */ JNIENv->FindClass android/app/ActivityManagerNative
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV android/app/ActivityManagerNative->getDefault()Landroid/app/IActivityManager;
+/* TID 25815 */ JNIENv->FindClass java/lang/reflect/Proxy
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/lang/reflect/Proxy->getInvocationHandler(Ljava/lang/Object;)Ljava/lang/reflect/InvocationHandler;
+/* TID 25815 */ JNIENv->CallObjectMethodV android/app/IActivityManager$Stub$Proxy->getClass()Ljava/lang/Class; android.app.IActivityManager$Stub$Proxy
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/Class->getName()Ljava/lang/String; android.app.IActivityManager$Stub$Proxy
+/* TID 25815 */ JNIENv->GetStringUTFChars android.app.IActivityManager$Stub$Proxy
+/* TID 25815 */ JNIENv->FindClass java/net/NetworkInterface
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/NetworkInterface->getNetworkInterfaces()Ljava/util/Enumeration;
+/* TID 25815 */ JNIENv->NewStringUTF wlan0
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7639984c48  fe 80 00 00 00 00 00 00 8c d2 0e ff fe ef af e2  ................
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7639984cc8  ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->NewStringUTF dummy0
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7639984a48  fe 80 00 00 00 00 00 00 98 a9 13 ff fe 53 2e 60  .............S.`
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7639984ac8  ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->NewStringUTF lo
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+7639984848  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01  ................
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+76399848c8  ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->NewStringUTF wlan0
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+75732c3a44  c0 a8 00 64                                      ...d
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+75732c3ac4  ff ff ff 00                                      ....
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+75732c3b44  c0 a8 00 ff                                      ....
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->NewStringUTF lo
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+74fa242444  7f 00 00 01                                      ....
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->SetByteArrayRegion              0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F  0123456789ABCDEF
+74fa2424c4  ff 00 00 00                                      ....
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/net/InetAddress->getByAddress(Ljava/lang/String;[BI)Ljava/net/InetAddress;
+/* TID 25815 */ JNIENv->GetStringUTFChars dummy0
+/* TID 25815 */ JNIENv->GetStringUTFChars wlan0
+/* TID 25815 */ JNIENv->GetStringUTFChars lo
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/util/Collections$3->hasMoreElements()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV java/util/Collections$3->nextElement()Ljava/lang/Object; 0x129
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/net/NetworkInterface->isUp()Z
+/* TID 25815 */ JNIENv->GetStringUTFChars dummy0
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->CallObjectMethodV java/net/NetworkInterface->getInterfaceAddresses()Ljava/util/List; 0x10d
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/util/ArrayList->isEmpty()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV java/net/NetworkInterface->getName()Ljava/lang/String; dummy0
+/* TID 25815 */ JNIENv->NewStringUTF UTF-8
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/nio/charset/Charset->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/String->getBytes(Ljava/nio/charset/Charset;)[B 0x211
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/util/Collections$3->hasMoreElements()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV java/util/Collections$3->nextElement()Ljava/lang/Object; 0x121
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/net/NetworkInterface->isUp()Z
+/* TID 25815 */ JNIENv->GetStringUTFChars wlan0
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->CallObjectMethodV java/net/NetworkInterface->getInterfaceAddresses()Ljava/util/List; 0x10d
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/util/ArrayList->isEmpty()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV java/net/NetworkInterface->getName()Ljava/lang/String; wlan0
+/* TID 25815 */ JNIENv->NewStringUTF UTF-8
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/nio/charset/Charset->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/String->getBytes(Ljava/nio/charset/Charset;)[B 0x205
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/util/Collections$3->hasMoreElements()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV java/util/Collections$3->nextElement()Ljava/lang/Object; 0x135
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/net/NetworkInterface->isUp()Z
+/* TID 25815 */ JNIENv->GetStringUTFChars lo
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 509
+/* TID 25815 */ JNIENv->CallObjectMethodV java/net/NetworkInterface->getInterfaceAddresses()Ljava/util/List; 0x10d
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/util/ArrayList->isEmpty()Z
+/* TID 25815 */ JNIENv->CallObjectMethodV java/net/NetworkInterface->getName()Ljava/lang/String; lo
+/* TID 25815 */ JNIENv->NewStringUTF UTF-8
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/nio/charset/Charset->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+/* TID 25815 */ JNIENv->CallObjectMethodV java/lang/String->getBytes(Ljava/nio/charset/Charset;)[B 0x215
+/* TID 25815 */ JNIENv->CallBooleanMethodV java/util/Collections$3->hasMoreElements()Z
+/* TID 25815 */ JNIENv->FindClass android/content/Context
+----------------GetStaticObjectField----------------
+case "android/content/Context->CONNECTIVITY_SERVICE:Ljava/lang/String;":    
+    return new StringObject(vm, "connectivity");
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getSystemService(Ljava/lang/String;)Ljava/lang/Object; 0x12d
+/* TID 25815 */ JNIENv->FindClass android/net/ConnectivityManager
+----------------GetStaticIntField----------------
+case "android/net/ConnectivityManager->TYPE_VPN:I":    
+    return 17;
+/* TID 25815 */ JNIENv->CallObjectMethodV android/net/ConnectivityManager->getAllNetworks()[Landroid/net/Network; 0x151
+/* TID 25815 */ JNIENv->CallObjectMethodV android/net/ConnectivityManager->getNetworkInfo(Landroid/net/Network;)Landroid/net/NetworkInfo; 0x1b1
+/* TID 25815 */ JNIENv->CallIntMethodV android/net/NetworkInfo->getType()I
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getPackageManager()Landroid/content/pm/PackageManager; 0x141
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.gsf.login
+/* TID 25815 */ JNIENv->CallObjectMethodV android/app/ApplicationPackageManager->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo; 0x0
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.gsf
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.gsf
+/* TID 25815 */ JNIENv->NewStringUTF 13-8768315
+/* TID 25815 */ JNIENv->NewStringUTF com.google.uid.shared
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.gsf
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.gsf
+/* TID 25815 */ JNIENv->NewStringUTF com.google.process.gapps
+/* TID 25815 */ JNIENv->NewStringUTF /system_ext/priv-app/GoogleServicesFramework
+/* TID 25815 */ JNIENv->NewStringUTF /system_ext/priv-app/GoogleServicesFramework
+/* TID 25815 */ JNIENv->NewStringUTF /system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk
+/* TID 25815 */ JNIENv->NewStringUTF /system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk
+/* TID 25815 */ JNIENv->NewStringUTF /system_ext/priv-app/GoogleServicesFramework/lib/arm64
+/* TID 25815 */ JNIENv->NewStringUTF /system_ext/priv-app/GoogleServicesFramework/lib
+/* TID 25815 */ JNIENv->NewStringUTF arm64-v8a
+/* TID 25815 */ JNIENv->NewStringUTF /product/overlay/GestureLineOverlay.apk
+/* TID 25815 */ JNIENv->NewStringUTF /product/overlay/GestureLineOverlay.apk
+/* TID 25815 */ JNIENv->NewStringUTF /data/resource-cache/com.android.systemui-neutral-Sp0G.frro
+/* TID 25815 */ JNIENv->NewStringUTF /data/resource-cache/com.android.systemui-accent-Hy0F.frro
+/* TID 25815 */ JNIENv->NewStringUTF default:privapp:targetSdkVersion=33
+/* TID 25815 */ JNIENv->NewStringUTF :complete
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/org.apache.http.legacy.jar
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/org.apache.http.legacy.jar
+/* TID 25815 */ JNIENv->NewStringUTF org.apache.http.legacy
+/* TID 25815 */ JNIENv->NewStringUTF android
+/* TID 25815 */ JNIENv->NewStringUTF /data/user/0/com.google.android.gsf
+/* TID 25815 */ JNIENv->NewStringUTF /data/user_de/0/com.google.android.gsf
+/* TID 25815 */ JNIENv->NewStringUTF /data/user/0/com.google.android.gsf
+/* TID 25815 */ JNIENv->NewStringUTF 13
+/* TID 25815 */ JNIENv->NewStringUTF androidx.core.app.CoreComponentFactory
+/* TID 25815 */ JNIENv->NewStringUTF com.google
+/* TID 25815 */ JNIENv->NewStringUTF 13
+/* TID 25815 */ JNIENv->CallObjectMethodV android/app/ApplicationPackageManager->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo; 0x101
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.gms
+/* TID 25919 */ JNIENv->NewStringUTF gapcmd_8
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.gms
+/* TID 25815 */ JNIENv->NewStringUTF 22.26.15 (190408-461192076)
+/* TID 25815 */ JNIENv->NewStringUTF com.google.uid.shared
+/* TID 25815 */ JNIENv->NewStringUTF co.g.App
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.gms
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.gms
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.gms
+/* TID 25815 */ JNIENv->NewStringUTF co.g.App
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GmsCore
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GmsCore
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GmsCore/GmsCore.apk
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GmsCore/GmsCore.apk
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GmsCore/lib/arm64
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GmsCore/lib/arm
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GmsCore/lib
+/* TID 25815 */ JNIENv->NewStringUTF arm64-v8a
+/* TID 25815 */ JNIENv->NewStringUTF armeabi-v7a
+/* TID 25815 */ JNIENv->NewStringUTF /product/overlay/GestureLineOverlay.apk
+/* TID 25815 */ JNIENv->NewStringUTF /product/overlay/GestureLineOverlay.apk
+/* TID 25815 */ JNIENv->NewStringUTF /data/resource-cache/com.android.systemui-neutral-Sp0G.frro
+/* TID 25815 */ JNIENv->NewStringUTF /data/resource-cache/com.android.systemui-accent-Hy0F.frro
+/* TID 25815 */ JNIENv->NewStringUTF default:privapp:targetSdkVersion=33
+/* TID 25815 */ JNIENv->NewStringUTF :complete
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/org.apache.http.legacy.jar
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/com.android.media.remotedisplay.jar
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/com.android.location.provider.jar
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/org.apache.http.legacy.jar
+/* TID 25815 */ JNIENv->NewStringUTF org.apache.http.legacy
+/* TID 25815 */ JNIENv->NewStringUTF android
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/com.android.media.remotedisplay.jar
+/* TID 25815 */ JNIENv->NewStringUTF com.android.media.remotedisplay
+/* TID 25815 */ JNIENv->NewStringUTF android
+/* TID 25815 */ JNIENv->NewStringUTF /system/framework/com.android.location.provider.jar
+/* TID 25815 */ JNIENv->NewStringUTF com.android.location.provider
+/* TID 25815 */ JNIENv->NewStringUTF android
+/* TID 25815 */ JNIENv->NewStringUTF /data/user/0/com.google.android.gms
+/* TID 25815 */ JNIENv->NewStringUTF /data/user_de/0/com.google.android.gms
+/* TID 25815 */ JNIENv->NewStringUTF /data/user/0/com.google.android.gms
+/* TID 25815 */ JNIENv->NewStringUTF co.g.Space
+/* TID 25815 */ JNIENv->NewStringUTF co.g.Bkp
+/* TID 25815 */ JNIENv->NewStringUTF UpsideDownCake
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.gms.chimera.GmsAppComponentFactory
+/* TID 25815 */ JNIENv->NewStringUTF com.google
+/* TID 25815 */ JNIENv->NewStringUTF UpsideDownCake
+/* TID 25815 */ JNIENv->CallObjectMethodV android/app/ApplicationPackageManager->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo; 0x10d
+/* TID 25815 */ JNIENv->NewStringUTF com.android.vending
+/* TID 25815 */ JNIENv->NewStringUTF com.android.vending
+/* TID 25815 */ JNIENv->NewStringUTF 22.7.51-23 [2] [PR] 371265832
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.apps.play.store.release.stub.headless.HeadlessApplication
+/* TID 25815 */ JNIENv->NewStringUTF com.android.vending
+/* TID 25815 */ JNIENv->NewStringUTF com.android.vending
+/* TID 25815 */ JNIENv->NewStringUTF com.android.vending
+/* TID 25815 */ JNIENv->NewStringUTF com.google.android.apps.play.store.release.stub.headless.HeadlessApplication
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GooglePlayServicesUpdater
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GooglePlayServicesUpdater
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GooglePlayServicesUpdater/GooglePlayServicesUpdater.apk
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GooglePlayServicesUpdater/GooglePlayServicesUpdater.apk
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GooglePlayServicesUpdater/lib/arm64
+/* TID 25815 */ JNIENv->NewStringUTF /product/priv-app/GooglePlayServicesUpdater/lib
+/* TID 25815 */ JNIENv->NewStringUTF /product/overlay/GestureLineOverlay.apk
+/* TID 25815 */ JNIENv->NewStringUTF /product/overlay/GestureLineOverlay.apk
+/* TID 25815 */ JNIENv->NewStringUTF /data/resource-cache/com.android.systemui-neutral-Sp0G.frro
+/* TID 25815 */ JNIENv->NewStringUTF /data/resource-cache/com.android.systemui-accent-Hy0F.frro
+/* TID 25815 */ JNIENv->NewStringUTF default:privapp:targetSdkVersion=31
+/* TID 25815 */ JNIENv->NewStringUTF :complete
+/* TID 25815 */ JNIENv->NewStringUTF /data/user/0/com.android.vending
+/* TID 25815 */ JNIENv->NewStringUTF /data/user_de/0/com.android.vending
+/* TID 25815 */ JNIENv->NewStringUTF /data/user/0/com.android.vending
+/* TID 25815 */ JNIENv->NewStringUTF Tiramisu
+/* TID 25815 */ JNIENv->NewStringUTF Tiramisu
+/* TID 25815 */ JNIENv->CallObjectMethodV android/app/ApplicationPackageManager->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo; 0x119
+/* TID 25815 */ JNIENv->FindClass android/os/SystemProperties
+/* TID 25815 */ JNIENv->FindClass java/lang/Thread
+/* TID 25815 */ JNIENv->FindClass android/content/Context
+----------------GetStaticObjectField----------------
+case "android/content/Context->ACCESSIBILITY_SERVICE:Ljava/lang/String;":    
+    return new StringObject(vm, "accessibility");
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getSystemService(Ljava/lang/String;)Ljava/lang/Object; 0x139
+/* TID 25815 */ JNIENv->CallObjectMethodV android/view/accessibility/AccessibilityManager->getEnabledAccessibilityServiceList(I)Ljava/util/List; 0x14d
+/* TID 25815 */ JNIENv->CallIntMethodV java/util/Collections$UnmodifiableRandomAccessList->size()I
+/* TID 25815 */ JNIENv->FindClass android/provider/Settings$Secure
+----------------GetStaticObjectField----------------
+case "android/provider/Settings$Secure->ENABLED_ACCESSIBILITY_SERVICES:Ljava/lang/String;":    
+    return new StringObject(vm, "enabled_accessibility_services");
+/* TID 25815 */ JNIENv->CallObjectMethodV com/tencent/wework/launch/WwApplication->getContentResolver()Landroid/content/ContentResolver; 0x1b9
+/* TID 25815 */ JNIENv->FindClass android/provider/Settings$Secure
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV android/provider/Settings$Secure->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
+/* TID 25815 */ JNIENv->GetLongField android/os/Binder->0x7099d1d4 2347358560L
+/* TID 25815 */ JNIENv->FindClass java/lang/ClassLoader
+/* TID 25815 */ JNIENv->CallStaticObjectMethodV java/lang/ClassLoader->getSystemClassLoader()Ljava/lang/ClassLoader;
+/* TID 25815 */ JNIENv->NewStringUTF de/robv/android/xposed/XposedBridge
+/* TID 25919 */ JNIENv->NewStringUTF UpdateCorpState_task
+/* TID 25919 */ JNIENv->NewStringUTF UpdateCorpState_task
+/* TID 25966 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 72
+/* TID 25966 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 440
+/* TID 25966 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 72
+/* TID 25966 */ JNIENv->GetIntField java/io/FileDescriptor->0x6fd23490 440
+/* TID 23543 */ JNIENv->GetStringUTFChars MIUIScout App
+/* TID 23543 */ JNIENv->GetStringUTFChars Enter APP_SCOUT_WARNING State
+/* TID 23543 */ JNIENv->GetStringUTFChars MIUIScout App
+/* TID 23543 */ JNIENv->GetStringUTFChars  (Current message: duration=2929ms seq=450625 late=1ms h=android.view.ViewRootImpl$ViewRootHandler c=android.view.View$PerformClick)
+/* TID 23543 */ JNIENv->GetStringUTFChars AppScoutStateMachine
+/* TID 23543 */ JNIENv->GetStringUTFChars dump trace dirName = com.tencent.wework-25815-APP_SCOUT_WARNING-2025-02-28-21-21-35
